@@ -1,38 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Currículum - Álvaro Gómez Morán</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Álvaro Gómez Morán - Currículum</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
       margin: 0;
-      padding: 0;
-      background: #f4f4f4;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
       color: #333;
     }
+
     .container {
-      max-width: 800px;
-      margin: auto;
-      background: #fff;
-      padding: 2em;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      margin-top: 2em;
+      max-width: 900px;
+      margin: 3rem auto;
+      background-color: #fff;
+      padding: 2.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     }
-    h1, h2 {
+
+    h1 {
+      font-size: 2.2rem;
+      color: #007acc;
+      margin-bottom: 0.3em;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-top: 2rem;
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 0.3rem;
       color: #007acc;
     }
+
+    p, li {
+      font-size: 1rem;
+    }
+
     ul {
-      padding-left: 1.5em;
+      padding-left: 1.2rem;
+      margin: 0.5rem 0;
     }
-    .section {
-      margin-bottom: 2em;
+
+    .contact {
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
     }
+
     .contact a {
       color: #007acc;
       text-decoration: none;
+      margin-right: 1rem;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      margin-bottom: 1.5rem;
+    }
+
+    .label {
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 1.5rem;
+      }
     }
   </style>
 </head>
@@ -40,26 +78,28 @@
   <div class="container">
     <h1>Álvaro Gómez Morán</h1>
     <p class="contact">
-      📍 Ciudad, Madrid · ✉️ <a href="mailto:alvarogomezmoran@gmail.com">alvarogomezmoran@gmail.com</a>
-      💼 <a href="https://www.linkedin.com/in/alvgom/">LinkedIn</a> · 💻 <a href="https://github.com/Alvarogomezmoran">GitHub</a>
+      📍 Madrid · ✉️ <a href="mailto:alvarogomezmoran@gmail.com">alvarogomezmoran@gmail.com</a><br>
+      💼 <a href="https://www.linkedin.com/in/alvgom/">LinkedIn</a>
+      💻 <a href="https://github.com/Alvarogomezmoran">GitHub</a>
     </p>
 
     <div class="section">
       <h2>🎓 Formación Académica</h2>
-      <p><strong>Grado en Ingeniería Informática</strong> — Universidad Complutense de Madrid<br></p>
+      <p><strong>Grado en Ingeniería Informática</strong> — Universidad Complutense de Madrid<br>
+        Septiembre 2020 – Junio 2025 (esperado)</p>
     </div>
 
     <div class="section">
       <h2>🛠️ Habilidades Técnicas</h2>
       <ul>
-        <li><strong>Lenguajes de programación:</strong> Python, C, C++, Java, JavaScript, Bash</li>
-        <li><strong>Desarrollo web:</strong> HTML5, CSS3, PHP</li>
-        <li><strong>Bases de datos:</strong> MySQL, PostgreSQL, SQLite, MongoDB</li>
-        <li><strong>Sistemas operativos:</strong> Linux (Ubuntu, Debian), Windows, macOS</li>
-        <li><strong>Herramientas de desarrollo:</strong> Git, GitHub, VS Code, Eclipse</li>
-        <li><strong>Contenedores y DevOps:</strong> Docker, Docker Compose(básico)</li>
-        <li><strong>Redes y sistemas:</strong> Fundamentos de redes TCP/IP, configuración básica de servidores y DNS</li>
-        <li><strong>Otros:</strong> POSIX, JSON, UML, Scrum, Metodologías Ágiles</li>
+        <li><span class="label">Lenguajes de programación:</span> Python, C, C++, Java, JavaScript, Bash</li>
+        <li><span class="label">Desarrollo web:</span> HTML5, CSS3, PHP</li>
+        <li><span class="label">Bases de datos:</span> MySQL, PostgreSQL, SQLite, MongoDB</li>
+        <li><span class="label">Sistemas operativos:</span> Linux (Ubuntu, Debian), macOS, Windows</li>
+        <li><span class="label">Herramientas de desarrollo:</span> Git, GitHub, VS Code, Eclipse</li>
+        <li><span class="label">Contenedores y DevOps:</span> Docker, Docker Compose (básico)</li>
+        <li><span class="label">Redes y sistemas:</span> Fundamentos de TCP/IP, configuración básica de servidores y DNS</li>
+        <li><span class="label">Otros:</span> POSIX, JSON, UML, Scrum, Metodologías Ágiles</li>
       </ul>
     </div>
 
@@ -70,7 +110,7 @@
         <li>Inglés — Nivel B2</li>
       </ul>
     </div>
-
   </div>
 </body>
 </html>
+
