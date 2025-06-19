@@ -104,22 +104,35 @@
     </div>
 
     <div class="section">
-      <h2>📱 Proyectos Destacados</h2>
-      <p><strong>Aplicación móvil educativa sobre sostenibilidad – UCM</strong><br>
-      Participación en el desarrollo de una app para estudiantes de la Universidad Complutense de Madrid, orientada al aprendizaje sobre energías renovables.<br><br>
-    
-      <strong>Responsabilidades técnicas:</strong>
-      <ul>
-        <li>Diseño del mockup inicial con Figma y desarrollo de la interfaz responsiva.</li>
-        <li>Desarrollo de ventanas emergentes interactivas para funcionalidades clave del usuario, incorporando validaciones dinámicas mediante JavaScript en la capa de presentación.</li>
-        <li>Aplicación del patrón DAO con clases <code>userDAO</code> y <code>tUser</code> para una arquitectura escalable.</li>
-        <li>Gestión de errores de usuario.</li>
-        <li>Diseño de la base de datos MySQL: definición de entidades, relaciones, y normalización del esquema.</li>
-        <li>Conexión a base de datos mediante patrón Singleton para eficiencia y control de recursos.</li>
-      </ul>
-      <a href="Certificado.pdf" target="_blank">📄 Ver certificado del proyecto</a>
-      </p>
-    </div>
+  <h2>📱 Proyectos Destacados</h2>
+
+  <p><strong>Aplicación móvil educativa sobre sostenibilidad – UCM</strong><br>
+  Participación en el desarrollo de una app para estudiantes de la Universidad Complutense de Madrid, orientada al aprendizaje sobre energías renovables.<br><br>
+  <strong>Responsabilidades técnicas:</strong>
+  <ul>
+    <li>Diseño del mockup inicial con Figma y desarrollo de la interfaz responsiva.</li>
+    <li>Desarrollo de ventanas emergentes interactivas para funcionalidades clave del usuario, incorporando validaciones dinámicas mediante JavaScript en la capa de presentación.</li>
+    <li>Aplicación del patrón DAO con clases <code>userDAO</code> y <code>tUser</code> para una arquitectura escalable.</li>
+    <li>Gestión de errores de usuario.</li>
+    <li>Diseño de la base de datos MySQL: definición de entidades, relaciones, y normalización del esquema.</li>
+    <li>Conexión a base de datos mediante patrón Singleton para eficiencia y control de recursos.</li>
+  </ul>
+  <a href="Certificado.pdf" target="_blank">📄 Ver certificado del proyecto</a>
+  </p>
+
+  <p><strong>Sistema de Gobernanza con Votación Cuadrática en Solidity</strong><br>
+  Desarrollo de un contrato inteligente para gobernanza descentralizada con votación cuadrática (QV), enfocado en evitar la concentración de poder.<br><br>
+  <strong>Características técnicas:</strong>
+  <ul>
+    <li>Gestión de propuestas: creación, presupuestos, estados y ejecución mediante contratos externos.</li>
+    <li>Implementación del sistema de votación con coste cuadrático (más votos implican mayor coste).</li>
+    <li>Control de acceso con modificadores personalizados (<code>onlyParticipant</code>, <code>isTheCreator</code>) y de OpenZeppelin (<code>nonReentrant</code>, <code>whenNotPaused</code>).</li>
+    <li>Optimización de gas: uso de bucles <code>unchecked</code> y patrón <em>checks-effects-interactions</em>.</li>
+    <li>Prevención de ataques (reentrancy, denegación de servicio) mediante <code>try/catch</code> y control de estado antes de transferencias.</li>
+  </ul>
+  <strong>Tecnologías:</strong> Solidity, ERC20, OpenZeppelin, EVM
+  </p>
+</div>
 
     
     <div class="section">
