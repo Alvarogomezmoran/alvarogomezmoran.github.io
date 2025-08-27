@@ -13,28 +13,12 @@
     }
 
     .container {
-      position: relative; /* necesario para posicionar la foto */
       max-width: 900px;
       margin: 3rem auto;
       background-color: #fff;
       padding: 2.5rem;
       border-radius: 10px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    }
-
-    .photo {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-    }
-
-    .photo img {
-      width: 120px; /* tamaño ajustable */
-      height: 120px;
-      object-fit: cover;
-      border-radius: 50%; /* hace la imagen circular */
-      border: 3px solid #007acc; /* borde azul a juego */
-      box-shadow: 0 0 8px rgba(0,0,0,0.15);
     }
 
     h1 {
@@ -101,19 +85,11 @@
       .container {
         padding: 1.5rem;
       }
-      .photo {
-        display: none; /* oculta la foto en móviles */
-      }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <!-- FOTO EN ESQUINA SUPERIOR DERECHA -->
-    <div class="photo">
-      <img src="foto.heic" alt="Foto de Álvaro Gómez Morán">
-    </div>
-
     <h1>Álvaro Gómez Morán</h1>
     <p class="contact">
       📍 Madrid · ✉️ <a href="mailto:alvarogomezmoran@gmail.com">alvarogomezmoran@gmail.com</a><br>
